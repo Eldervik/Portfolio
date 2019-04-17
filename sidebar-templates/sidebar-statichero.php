@@ -16,7 +16,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	<!-- ******************* The Hero Widget Area ******************* -->
 
-	<div class="wrapper" id="wrapper-static-hero">
+	<div class="wrapper bg-light text-dark" id="wrapper-static-hero">
 
 			<div class="<?php echo esc_attr( $container ); ?>" id="wrapper-static-content" tabindex="-1">
 

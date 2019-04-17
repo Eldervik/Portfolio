@@ -1,1 +1,19 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+@import "usps";
+@import "portfolio";
+@import "hero-front-page";
+@import "usps-front-page";
+
+body{
+    background-color:#F8F9FA;
+}
+h2.entry-title a, time, li a{
+    color:#343A40;
+}
+.btn{
+    border-radius: 0;
+}
+.wrapper{
+    padding: 30px 10px; 
+}

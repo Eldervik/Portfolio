@@ -1,0 +1,65 @@
+/**
+*Portfolio Styles
+*/
+
+#wrapper-portfolio {
+    text-align: center;
+    background-color: #343A40;
+    color:#F8F9FA;
+    .col-12{
+        margin-bottom:2rem;
+    }
+    .wrapper-portfolio {
+        display: flex;
+        a{
+            color:#343A40;
+        }
+        .card{
+            background-color: #F8F9FA;
+            border:1px solid #F8F9FA;
+            color:#343A40;
+            border-radius: 0;
+            padding:0.5rem;
+            margin-bottom:2rem;
+        }
+        .portfolios{
+            flex-grow:1;
+            .portfolioinfo{
+                background-color:#eee;
+                margin-top:0.5rem;
+                h1 {
+
+                	font-size: 1.5rem;
+                	margin-top: 1rem;
+                }
+
+                .btn {
+                	color: #F8F9FA;
+
+                }
+
+                footer {
+                	display: flex;
+                	flex-grow: 1;
+                	justify-content: flex-end;
+                	flex-direction: column;
+                }
+            }
+        }
+    }
+}
+#single-wrapper .site-main{
+    display: flex;
+    aside p{
+        background-color:#343A40;
+        padding:1rem;
+        color:#F8F9FA;
+        width:11rem;
+        margin-top:3.5rem;
+    }
+}
+.article-single {
+    display: flex;
+    flex-direction: column;
+}
+

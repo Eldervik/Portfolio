@@ -55,9 +55,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 								<dt><?php esc_html_e( 'Profile', 'understrap' ); ?></dt>
 								<dd><?php esc_html_e( $curauth->user_description ); ?></dd>
 							<?php endif; ?>
+							
 						</dl>
 					<?php endif; ?>
-
+					<?php if($phone = get_field('phone', 'user_' . $curauth->ID)): ?>
+								Phone: <?php echo $phone ?>
+					<?php endif; ?>
 					<h2><?php echo esc_html( 'Posts by', 'understrap' ) . ' ' . esc_html( $curauth->nickname ); ?>:</h2>
 
 				</header><!-- .page-header -->

@@ -1,0 +1,30 @@
+/**
+*Front Page USPs
+*/
+#endorsment{
+    background-color:gray;
+    height:100vh;
+}
+#frontpage-usps {
+    text-align: center;
+    padding-top:6rem;
+	.col-md-4 {
+		.usps {
+			background-color: #343A40;
+            padding: 1rem;
+			h1 {
+                font-size: 1.5rem;
+                color: #eee;
+            }
+            p{
+                color: #eee;
+            }
+        }
+    }
+    .col-md-4:nth-child(2) {
+        margin-top:16%;
+    }
+    .col-md-4:nth-child(5){
+        margin-left:33.3%;
+    }
+}

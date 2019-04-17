@@ -14,6 +14,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
+<?php if ( is_front_page() ) : ?>
+	<?php get_template_part( 'global-templates/hero', 'none' ); ?>
+<?php endif; ?>
 
 <div class="wrapper" id="full-width-page-wrapper">
 
