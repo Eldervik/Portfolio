@@ -4,9 +4,14 @@
 @import "portfolio";
 @import "hero-front-page";
 @import "usps-front-page";
+@import "projects-front-page";
+@import "contact-front-page";
+@import "knowledge-front-page";
+@import "contact-form7";
+
 
 body{
-    background-color:#F8F9FA;
+    background-color:$primary;
 }
 h2.entry-title a, time, li a{
     color:#343A40;
@@ -16,4 +21,13 @@ h2.entry-title a, time, li a{
 }
 .wrapper{
     padding: 30px 10px; 
+}
+.navbar-brand, a.nav-link{
+    color:#F8F9FA;
+}
+span.navbar-toggler-icon{
+	color: #F8F9FA!important;
+}
+.left-bar{
+    border-left:3px solid $secondary;
 }

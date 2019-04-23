@@ -17,6 +17,8 @@
 .wpcf7 {
   max-width: 600px;
   margin: 0 auto !important;
+  background-color: $primary;
+  color:$secondary;
 
   // all inputs except radios and checkboxes inherit from form-control
   input[type=text],
@@ -38,6 +40,8 @@
   select,
   textarea {
     @extend .form-control;
+    border-radius:0;
+    border:1px solid $primary;
   }
 
   // submit button, inherit .btn and .btn-outline-primary classes.

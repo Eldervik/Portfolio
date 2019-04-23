@@ -2,19 +2,20 @@
 *Front Page USPs
 */
 #endorsment{
-    background-color:gray;
-    height:100vh;
+    background-color:$primary;
+    height:70vh;
 }
 #frontpage-usps {
     text-align: center;
     padding-top:6rem;
 	.col-md-4 {
 		.usps {
-			background-color: #343A40;
+			background-color: $primary;
             padding: 1rem;
-			h1 {
+			h2 {
                 font-size: 1.5rem;
                 color: #eee;
+                border-bottom:1px solid white;
             }
             p{
                 color: #eee;
@@ -26,5 +27,23 @@
     }
     .col-md-4:nth-child(5){
         margin-left:33.3%;
+    }
+    @media screen and (max-width: 1200px) {
+        .col-md-4{
+            display: block;
+        }
+        .col-md-4:nth-child(4),
+        .col-md-4:nth-child(5){
+            display: none;
+        }
+        .col-md-4:nth-child(3),
+        .col-md-4:nth-child(1) {
+        	margin-top: 16%;
+        }
+    }
+    @media screen and (max-width: 700px){
+        .col-md-4:nth-child(1) {
+        	margin-top:0;
+        }
     }
 }
