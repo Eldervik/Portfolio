@@ -7,7 +7,6 @@
             <h2 class="text-center"><?php the_field('hero_sub-title');?></h2>
             <img src="<?php the_field('hero_front_image');?>" class="front-image" style="color:white">
             <div id="languages">
-                <h1><?php _e('Knowledge', 'understrap');?></h2>
                 <?php $languages = get_field('front_page_programming_language'); 
                     if($languages){
                         foreach($languages as $post){?>

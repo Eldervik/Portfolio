@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                 <h2><?php>the_title();?></h2>
             </header><!-- .entry-header -->
             <div class="">
-                <p>Experience: <?php the_content(); ?></p>
+                <?php the_content(); ?>
             </div><!-- .entry-content -->
         </div>
         <?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
