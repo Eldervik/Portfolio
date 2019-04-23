@@ -1,0 +1,23 @@
+/**
+*Front Page Knowledge
+*/
+section#languages{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left:1rem;
+    position:relative;
+    h1{
+        padding-top:0;
+    }
+    h2{
+        border-bottom:1px solid $secondary;
+    }
+}
+@media screen and (min-width: 1200px){
+    section#languages{
+        display: none;
+    }
+}
+
+

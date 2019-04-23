@@ -1,0 +1,28 @@
+/**
+*Front Page Contact
+*/
+
+#contact{
+    height:100vh;
+    padding:1rem;
+    background-color:$primary;
+    h1 {
+    	color: $secondary;
+    }
+
+    p {
+    	text-align: center;
+    }
+}
+
+.wpcf7 input[type=submit]{
+    color:$secondary;
+    background-color:$primary;
+    justify-content: center;
+    border:1px solid $secondary!important;
+}
+.wpcf7 input[type=submit]:hover{
+    color:$primary;
+    background-color:$secondary;
+    border:1px solid $primary !important;
+}
